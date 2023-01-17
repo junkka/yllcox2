@@ -1,0 +1,24 @@
+Package: yllcox2
+Type: Package
+Title: Calculate YLL from a coxph model
+Version: 0.2.0.9999
+Author: Johan Junkka
+Authors@R: 
+    person("Johan", "Junkka", email = "johan.junkka@umu.se", role = c("aut", "cre"))
+Description: 
+    Calculate Years of life lost from a Cox proportional hazard model
+Imports:
+  boot,
+  dplyr,
+  tidyr,
+  forcats,
+  tibble,
+  stringr,
+  magrittr,
+  purrr,
+  survival,
+  stats
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
